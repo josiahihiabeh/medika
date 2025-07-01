@@ -79434,7 +79434,7 @@ break
 case 1:o=b0
 s=p}while(true)switch(s){case 0:a1=A.f0("https://openrouter.ai/api/v1/chat/completions")
 a2=t.N
-a3=A.aH(["Authorization","Bearer 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","Content-Type","application/json"],a2,a2)
+a3=A.aH(["Authorization","Bearer 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","Content-Type","application/json"],a2,a2)
 a4=t.K
 a5=B.aZ.rA(A.aH(["model","deepseek/deepseek-chat:free","stream",!0,"messages",A.a([A.aH(["role","system","content","You are Medika, a helpful health assistant, you are speaking with non medical users so speak in simple grammer while explaining concepts or offering assistance."],a2,a2),A.aH(["role","user","content",a8],a2,a2)],t.m0)],a2,a4),null)
 a6=A.aGk("POST",a1)
